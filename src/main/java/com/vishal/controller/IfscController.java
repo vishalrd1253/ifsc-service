@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.vishal.entity.IfscBank;
 import com.vishal.service.IfscService;
 
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/ifsc")
 public class IfscController {
